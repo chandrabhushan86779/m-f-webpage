@@ -1,0 +1,168 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background-image: url("icon and images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.square-box {
+  width: 25vw;
+  height: 75vh;
+  margin-left: 39vw;
+  margin-top: 5%;
+  background-color: whitesmoke;
+  border-radius: 20px;
+}
+.hero {
+  width: 25vw;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0%;
+  margin: 0%;
+}
+.row1 {
+  flex-basis: 100%;
+  position: relative;
+
+  text-align: center;
+  padding: 0;
+}
+.row1 h2 {
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 4vh;
+}
+.paragraph {
+  margin-top: 4%;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: rgba(0, 0, 0, 0.767);
+  font-size: 1.2vw 0.5vh;
+}
+.plan-box {
+  display: flex;
+  background-color: rgb(236, 236, 236);
+  width: auto;
+  height: 60px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 3vh;
+  border-radius: 10px;
+}
+.music-icon {
+  display: inline-block;
+  padding-top: 1vh;
+  padding-left: 1vw;
+}
+.plan {
+  display: inline-block;
+  margin-left: 6%;
+  margin-top: 3%;
+}
+.plan h6 {
+  padding-top: 5%;
+  color: rgba(0, 0, 0, 0.76);
+  font-size: small;
+}
+.change-plan {
+  position: relative;
+  text-decoration: none;
+  left: 13%;
+  top: 34%;
+}
+.change-plan a {
+  text-decoration: underline;
+}
+.change-plan a:hover {
+  text-decoration: none;
+  color: blue;
+}
+
+.payment {
+  display: block;
+  background-color: rgba(108, 39, 235, 0.76);
+  color: white;
+  text-align: center;
+  font-size: large;
+  border-radius: 10px;
+  padding-top: 6px;
+  margin-left: 10%;
+  margin-top: 5%;
+
+  height: 5vh;
+  width: 20vw;
+  text-decoration: none;
+}
+a:hover {
+  color: whitesmoke;
+}
+.cancel {
+  text-align: center;
+  margin-top: 5%;
+}
+.cancel a {
+  color: black;
+  text-decoration: none;
+}
+.cancel a:hover {
+  text-decoration: none;
+color: rgba(0, 0, 0, 0.829);
+}
+
+
+
+
+@media only screen and (max-width:700px) {
+    body {
+        background-image: url("icon and images/pattern-background-mobile.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    .square-box {
+        width: 80vw;
+        height: 70vh;
+        margin-left: 10vw;
+        margin-top: 10%;
+        background-color: whitesmoke;
+        border-radius: 15px;
+      }
+      .paragraph {
+        margin-top: 4%;
+        margin-left: 10%;
+        margin-right: 10%;
+        color: rgba(0, 0, 0, 0.767);
+        text-align: center;
+        font-size: 2vw 2vh;
+        justify-content: center;
+      }
+      .payment {
+        display: block;
+        background-color: rgba(108, 39, 235, 0.76);
+        color: white;
+        text-align: center;
+        font-size: large;
+        border-radius: 10px;
+        padding-top: 6px;
+        margin-left: 10%;
+        margin-top: 5%;
+       font-size: 2vw 2vh;
+        height: 5vh;
+        width: 63vw;
+        text-decoration: none;
+        justify-content: center;
+      } 
+      .change-plan {
+        position: relative;
+        text-decoration: none;
+        left: 15vw 15vh;
+        top: 34%;
+      }
+}
